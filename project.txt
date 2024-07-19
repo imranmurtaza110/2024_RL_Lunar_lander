@@ -1,1 +1,18 @@
-Reinforcement learning project
+Lunar Landing Simulation with Reinforcement Learning:
+This project is part of a course focused on reinforcement learning techniques. The goal is to simulate a lunar landing, where an agent learns from experience and improves its landing capabilities over time. PyTorch is used to create the neural networks that power the agent's learning process.
+
+Project Overview:
+Reinforcement Learning: The agent uses reinforcement learning to navigate and land on the lunar surface. By interacting with the environment, it learns the optimal strategies through trial and error.
+Neural Networks: PyTorch is employed to design and train the neural networks that enable the agent to process information and make decisions.
+Simulation: The project simulates the lunar landing environment, providing a realistic scenario for the agent to learn and adapt.
+Key Features
+Experience-Based Learning: The agent continuously learns from its experiences, refining its actions to achieve better landing outcomes.
+Deep Q-Learning: Implementation of Deep Q-Learning to enhance the agent's ability to learn optimal actions through a reward-based system.
+Double Deep Q-Learning: Utilizes Double Deep Q-Learning to address the overestimation bias of Q-learning, leading to more stable and accurate learning.
+Files and Implementation
+Deep Q-Learning Implementation: lunar_lander_q_learning.py
+
+Contains the implementation of the Deep Q-Learning algorithm, enabling the agent to learn the optimal actions by maximizing cumulative rewards.
+Double Deep Q-Learning Implementation: lunar_lander_double_q_learning_updated.py
+
+Implements the Double Deep Q-Learning algorithm, which improves upon Deep Q-Learning by reducing overestimation bias, resulting in more reliable learning outcomes.
